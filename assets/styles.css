@@ -12,6 +12,6 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition-duration:.001ms!important;animation-duration:.001ms!important}}
 
 /* Contact section */
-.contact-section{background:#f5f8fb;border-top:1px solid #e4ebf2}.contact-inner{display:flex;align-items:center;justify-content:space-between;gap:40px}.contact-inner>div{max-width:660px}.contact-inner h2{font-size:clamp(32px,4vw,44px);margin:14px 0 16px}.contact-inner p{color:var(--muted);font-size:15px;line-height:1.85;margin:0}.contact-inner>.button{flex-shrink:0}
+.contact-section{background:#f5f8fb;border-top:1px solid #e4ebf2}.contact-inner{display:flex;align-items:center;justify-content:space-between;gap:40px}.contact-inner>div{max-width:660px}.contact-inner h2{font-size:clamp(32px,4vw,44px);margin:14px 0 16px}.contact-inner p{color:var(--muted);font-size:15px;line-height:1.85;margin:0}.contact-actions{display:flex;flex-wrap:wrap;gap:12px;align-items:center;flex-shrink:0}.contact-email{margin-top:18px;font-size:13px;color:var(--muted)}.contact-email span{font-weight:700}.contact-email a{color:#2467ba;font-weight:700;overflow-wrap:anywhere}.contact-email a:hover{text-decoration:underline}
 @media(max-width:760px){.contact-inner{flex-direction:column;align-items:flex-start;gap:25px}}
-@media(max-width:440px){.contact-inner>.button{width:100%}}
+@media(max-width:440px){.contact-actions{width:100%}.contact-actions .button{width:100%}}
