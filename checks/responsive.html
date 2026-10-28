@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Responsive layout checks — Joseph Yohannes</title>
+  <style>
+    *{box-sizing:border-box}body{margin:24px;background:#edf2f7;color:#173250;font:16px/1.5 Arial,sans-serif}
+    h1{font-size:24px}main{display:flex;flex-wrap:wrap;gap:24px;align-items:flex-start}
+    section{background:white;padding:16px;border:1px solid #d7e0e8;border-radius:10px}
+    h2{font-size:16px;margin:0 0 12px}iframe{display:block;height:840px;border:1px solid #bacad8;box-sizing:content-box}
+  </style>
+</head>
+<body>
+  <h1>Responsive layout checks</h1>
+  <p>Development check: each frame renders the actual page at the labelled CSS viewport width. Scroll within a frame to inspect the full page.</p>
+  <main>
+    <section><h2>Homepage — 390 px</h2><iframe title="Homepage at 390 pixels" src="../" width="390"></iframe></section>
+    <section><h2>Case study — 390 px</h2><iframe title="Case study at 390 pixels" src="../projects/crm-sales-pipeline/" width="390"></iframe></section>
+    <section><h2>Homepage — 320 px</h2><iframe title="Homepage at 320 pixels" src="../" width="320" loading="lazy"></iframe></section>
+    <section><h2>Case study — 320 px</h2><iframe title="Case study at 320 pixels" src="../projects/crm-sales-pipeline/" width="320" loading="lazy"></iframe></section>
+  </main>
+</body>
+</html>
